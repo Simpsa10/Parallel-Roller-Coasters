@@ -1,9 +1,5 @@
-// Austin Simpson
-// Dr. Nystrom
-// Project 4.8
-
-// This program will follow the same procedures as program 4.7 but will be in
-// C++ using threads.
+/* This program will use parallel programming techniques to simulate roller coasters running in unison. 
+   Only one roller coster is allowed to run at one time */
 
 #include <pthread.h>
 #include <semaphore.h>
